@@ -1,0 +1,9 @@
+SQL script to create the table
+
+CREATE TABLE `test`.`car` (
+  `id_car` INT NOT NULL AUTO_INCREMENT,
+  `license_plate` VARCHAR(45) NULL,
+  `make` VARCHAR(45) NULL,
+  `model` VARCHAR(45) NULL,
+  `price` DECIMAL(2) NULL,
+  PRIMARY KEY (`id_car`));
